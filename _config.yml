@@ -17,40 +17,28 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
-
+  tags: /tags/
+  category: /categories/
+  search: /search/
+  projects: https://github.com/gabrielle-barnes
 
 # Links to your social media accounts.
 # The 'icon' keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
-# You can optionally add a 'label' key to set the title attribute on the link. 
+# You can optionally add a 'label' key to set the title attribute on the link.
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
-  -
-    icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
-  -
-    icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+  - icon: github
+    link: https://github.com/gabrielle-barnes
+  - icon: instagram
+    link: https://www.instagram.com/umamigabi?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr
+  - icon: mail
+    link: mailto:gabriellebarnes024@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
-tags_overview: false
+tags_overview: true
 
 # Customize the overview with the most recent blog posts on the index page.
 # Options:
@@ -89,7 +77,6 @@ error_404:
   enabled: true
   title: "404 Page Not Found"
   description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-
 
 ##############################################################################
 # Look and Feel
@@ -143,7 +130,6 @@ colorscheme: dark
 # Maximal width of the page in rem units.
 page_width: 48
 
-
 ##############################################################################
 # Miscellaneous
 ##############################################################################
@@ -158,7 +144,6 @@ open_graph:
   twitter_id:
   google_plus:
 
-
 ##############################################################################
 # Plugins
 ##############################################################################
@@ -169,8 +154,8 @@ mathjax:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: "gabis-omelette"
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
